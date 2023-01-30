@@ -1,0 +1,73 @@
+    1  git init
+    2  touch f1
+    3  git status
+    4  git add .
+    5  git status
+    6  git commit -m "First commit"
+    7  git config --global user.email "kavyabikkodu@gmail.com"
+    8  git config --global user.name "Kavyabikkodu"
+    9  git commit -m "First commit"
+   10  touch f2
+   11  git status
+   12  git add f2
+   13  git status
+   14  git commit -m "second commit"
+   15  git status
+   16  touch f3
+   17  git status
+   18  git add .
+   19  git status
+   20  git commit -m "third commit"
+   21  git status
+   22  git log
+   23  git reset --soft a3224703f9133fda7c3dd33beb8fec41b18b273c
+   24  git status
+   25  git reset head f3
+   26  git status
+   27  git add .
+   28  git status
+   29  git commit -m "third commit-2"
+   30  clear
+   31  git log
+   32  git reset --soft a3224703f9133fda7c3dd33beb8fec41b18b273c
+   33  git status
+   34  git reset head f3
+   35  git status
+   36  git add .
+   37  git commit -m "commit"
+   38  clear
+   39  git remote add origin https://github.com/Kavyabikkodu/devops.git
+   40  git push -u origin master
+   41  ls
+   42  git pull
+   43  ls
+   44  clear
+   45  touch f5
+   46  git add .
+   47  git commit -m "fifth commit"
+   48  git push -u origin master
+   49  git pull
+   50  ls
+   51  git fetch
+   52  ls
+   53  git merge
+   54  ls
+   55  git fetch
+   56  ls
+   57  git merge
+   58  ls
+   59  git pull
+   60  ls
+   61  clear
+   62  ls
+   63  git branch
+   64  git branch bangalore
+   65  git branch
+   66  git checkout bangalore
+   67  git branch
+   68  ls
+   69  git checkout master
+   70  git branch hyderbad
+   71  git checkout hyderbad
+   72  ls
+   73  history >> git.txt
