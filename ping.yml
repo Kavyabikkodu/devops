@@ -1,5 +1,5 @@
 ---
-  - hosts: hosts
+  - hosts: local
     become: true 
     tasks:
       - ping :
