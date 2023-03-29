@@ -1,0 +1,9 @@
+---
+ - hosts: l72.31.3.202
+   become: true
+   tasks: 
+     - file: 
+         path: /home/ansijen/abc.txt
+         state: touch
+         mode: 0777
+ 
