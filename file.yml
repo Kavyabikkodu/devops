@@ -1,5 +1,5 @@
 ---
- - hosts: l72.31.3.202
+ - hosts: localhost
    become: true
    tasks: 
      - file: 
