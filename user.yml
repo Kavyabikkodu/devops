@@ -3,6 +3,12 @@
    become: true
    tasks: 
      - user: 
-         name: kavya
+         name: {{ item }}
+         with_items:
+           - gayathri
+           - santosh
+           - srikanth
+           - prathibha
+           - prshanth
          state: present
          uid: 2010
