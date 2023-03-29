@@ -1,0 +1,8 @@
+---
+ - hosts: node1
+   become: true
+   tasks:
+     - yum:
+         name: git
+         state: installed
+         
