@@ -3,7 +3,7 @@
    become: true
    tasks: 
      - user: 
-         name: {{ item }}
+         name: "{{ item }}"
          with_items:
            - gayathri
            - santosh
