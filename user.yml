@@ -4,11 +4,12 @@
    tasks: 
      - user: 
          name: "{{ item }}"
+         state: present
+         uid: 2010
        with_items:
          - gayathri
          - santosh
          - srikanth
          - prathibha
          - prshanth
-         state: present
-         uid: 2010
+         
