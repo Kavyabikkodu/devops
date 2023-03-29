@@ -5,10 +5,10 @@
      - user: 
          name: "{{ item }}"
          with_items:
-           - gayathri
-           - santosh
-           - srikanth
-           - prathibha
-           - prshanth
+         - gayathri
+         - santosh
+         - srikanth
+         - prathibha
+         - prshanth
          state: present
          uid: 2010
