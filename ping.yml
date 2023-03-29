@@ -1,5 +1,5 @@
 ---
-  - hosts: ansijen
+  - hosts: local
     become: true 
     tasks:
       - ping :
